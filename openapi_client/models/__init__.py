@@ -1,0 +1,47 @@
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from openapi_client.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from openapi_client.model.bad_request import BadRequest
+from openapi_client.model.button import Button
+from openapi_client.model.button_message import ButtonMessage
+from openapi_client.model.button_message_with_image import ButtonMessageWithImage
+from openapi_client.model.contact_data import ContactData
+from openapi_client.model.create_group_data import CreateGroupData
+from openapi_client.model.forbidden import Forbidden
+from openapi_client.model.generic_error import GenericError
+from openapi_client.model.group_controller_add_to_group_request import GroupControllerAddToGroupRequest
+from openapi_client.model.group_controller_create_group_request import GroupControllerCreateGroupRequest
+from openapi_client.model.group_data import GroupData
+from openapi_client.model.instance_controller_download_media_message_request import InstanceControllerDownloadMediaMessageRequest
+from openapi_client.model.list_row import ListRow
+from openapi_client.model.list_section import ListSection
+from openapi_client.model.location_cordinates import LocationCordinates
+from openapi_client.model.location_message import LocationMessage
+from openapi_client.model.media_message_keys import MediaMessageKeys
+from openapi_client.model.media_url_message import MediaUrlMessage
+from openapi_client.model.not_found import NotFound
+from openapi_client.model.send_list_message_data import SendListMessageData
+from openapi_client.model.send_message_controller_send_buttons_message_request import SendMessageControllerSendButtonsMessageRequest
+from openapi_client.model.send_message_controller_send_buttons_message_with_media_request import SendMessageControllerSendButtonsMessageWithMediaRequest
+from openapi_client.model.send_message_controller_send_list_message_request import SendMessageControllerSendListMessageRequest
+from openapi_client.model.send_message_controller_send_location_message_request import SendMessageControllerSendLocationMessageRequest
+from openapi_client.model.send_message_controller_send_media_url_request import SendMessageControllerSendMediaUrlRequest
+from openapi_client.model.send_message_controller_send_template_messsage_request import SendMessageControllerSendTemplateMesssageRequest
+from openapi_client.model.send_message_controller_send_text_message_request import SendMessageControllerSendTextMessageRequest
+from openapi_client.model.send_message_controller_send_text_message_to_single_user_request import SendMessageControllerSendTextMessageToSingleUserRequest
+from openapi_client.model.send_v_card_data import SendVCardData
+from openapi_client.model.text_messge import TextMessge
+from openapi_client.model.text_messge_single import TextMessgeSingle
+from openapi_client.model.unauthorized import Unauthorized
+from openapi_client.model.update_webhook_status_schema import UpdateWebhookStatusSchema
+from openapi_client.model.update_webhook_url_schema import UpdateWebhookUrlSchema
+from openapi_client.model.webhook_controller_enable_message_webhook_request import WebhookControllerEnableMessageWebhookRequest
+from openapi_client.model.webhook_controller_update_webhook_url_request import WebhookControllerUpdateWebhookUrlRequest
